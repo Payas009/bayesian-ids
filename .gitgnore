@@ -1,10 +1,48 @@
-# Byte-compiled / cache
+# Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
+*$py.class
 
-# Model artefacts
-models/*.bif
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
 
-# Jupyter checkpoints
-.ipynb_checkpoints/
- 
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints
+
+# PyInstaller
+*.spec
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.nox/
+.coverage
+coverage.xml
+.cache
+.pytest_cache/
+
+# Virtual environments
+env/
+venv/
+.venv/
+ENV/
+env.bak/
+env.yml
+
+# VSCode settings
+.vscode/
+
+# IDE settings
+.idea/
+
+# Logs and local files
+*.log
+*.csv
+*.sqlite3
+*.db
+
+# Mac & Linux OS files
+.DS_Store
+*.swp
